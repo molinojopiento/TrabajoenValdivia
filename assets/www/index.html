@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title></title> 
+    <link rel="stylesheet" href="js/jquery.mobile-1.0.min.css" />
+	   <link rel="stylesheet" href="css/default.min.css" />
+    <link rel="stylesheet" href="css/woody.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="css/photoswipe.css" type="text/css" rel="stylesheet" />    
+    <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:400,700' rel='stylesheet' type='text/css'>
+
+ <script src="js/jquery-1.6.4.min.js"></script>
+  <script src="main.js"></script>
+   <script src="js/jquery.mobile-1.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/klass.min.js"></script>
+    <style type="text/css">
+
+	        .ui-icon-twitter {
+			background-image: url(images/ticon.jpg);
+			background-repeat: no-repeat;
+		}
+		.ui-icon-twitter, .ui-icon-facebook {
+			background-position: 0 40%;
+		}
+
+
+
+A:link {text-decoration:none}
+A:visited {text-decoration:none}
+
+
+</style>
+
+	
+</head> 
+<body> 
+
+<div data-role="page" id="mainPage">
+
+    <div data-role="header">
+ 
+    </div>
+
+    <div data-role="content"> 
+ 
+<center><img src="images/icono.png" width="188" height="68"></center>
+<center>  <div class="slider">
+            <img src="images/slide_item1.jpg" />
+            <img src="images/slide_item2.jpg" />
+            <img src="images/slide_item3.jpg" />
+            <img src="images/slide_item4.jpg" />
+        </div><!--END OF: Slider --><font color="#FFFFFF"> Enterate de todas las ofertas de trabajo en la ciudad.</font><br><br></center>      
+		<center><div id="status" style="color:#FF0"></div></center>  
+       <ul id="linksList" data-role="listview" data-inset="true"></ul>
+    </div>
+  <a href="tel:+990664221" data-role="button" data-theme="b">Llama al programador</a>    <a href="http://twitter.com/molinojopiento" data-role="button" data-icon="twitter" data-iconpos="right" >Sigueme en twitter</a>
+    <div data-role="footer">
+        <h4><font size="-5">Actualiza las ofertas de trabajo conectandote a internet.</font></h4>
+    </div>
+
+    
+</div>
+
+<div data-role="page" id="contentPage">
+
+    <div data-role="header">
+        <a href="#mainPage" data-rel="back">Atras</a>
+        <h1></h1>
+    </div><br><br>
+
+    <div data-role="button" data-theme="b" style="color:#FFF" id="entryText">
+    </div><br>
+        <div data-role="footer">
+        <h4><font size="-5">Para ver el aviso necesitas conexion a internet.<br>Molinojopiento 2012</font></h4>
+    </div>
+ 
+
+  
+    
+</div>
+ 
+</body>
+</html>
